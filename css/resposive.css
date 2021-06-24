@@ -1,0 +1,266 @@
+
+@media only screen and (max-width: 960px) {
+    .social_icon {
+        float: none;
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .navbar-nav a{
+        text-align: right;
+    }
+    .nav-item:last-child{
+        margin-right: 40px;
+    }
+    .banner-text{
+        padding: 50px;
+    }
+    .card{
+        margin-bottom: 80px;
+    }
+    .wlc-left {
+        width: 100%;
+        height: auto;
+        float: none;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .wlc-right {
+        float: none;
+        width: 100%;
+        background: #002262;
+        padding: 60px 20px;
+    }
+    .wlc-right .text {
+        margin-right: 0px;
+        margin-left: -0px;
+      }
+    .card-full{
+        padding-bottom: 0;
+    }
+    .heart .heart-top img {
+        bottom: 0;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .heart-bottom{
+        padding-top: 0;
+    }
+    .depertments{
+        flex-direction: column;
+    }
+    .dep-a::before {
+        top: -30%;
+        left: -16px;
+        width: 0;
+        height: 465px;
+    }
+    .dep-b::before {
+        top: 707%;
+        left: auto;
+        width: 140px;
+        height: 1px;
+        right: -85px;
+    }
+    .dep-b::after{
+        content: "";
+        position: absolute;
+        top: -115%;
+        left: -15px;
+        width: 4%;
+        height: 7px;
+        border-bottom: 2px solid #002262;
+        background: transparent;
+    }
+    .dep-c::before {
+        top: 50%;
+        left: -5px;
+        width: 18px;
+        height: 1px;
+    }
+    .dep-a::after {
+        content: "";
+        position: absolute;
+        top: 204%;
+        left: -16px;
+        width: 107%;
+        height: 7px;
+        border-bottom: 2px solid #002262;
+        background: transparent;
+    }
+    .dep-d::before {
+        top: 40px;
+        left: -15px;
+        width: 19px;
+        height: 0;
+    }
+    .sales-dep-main .sub-depertments.sd1 {
+        position: absolute;
+        left: auto;
+        right: 100px;
+        top: 380px;
+    }
+    .dep-b>ul::before {
+        left: auto;
+        top: -127%;
+        right: -117px;
+        width: 2px;
+        height: 545px;
+    }
+    
+    .dep-b>ul::after {
+        top: 25%;
+        left: auto;
+        width: 141px;
+        height: 1px;;
+        right: -186px;
+    }
+    .contact .container .col-md-3 {
+        text-align: center;
+    }
+    .service .container p {
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 375px){
+    .social_icon {
+        float: none;
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .navbar-nava{
+        text-align: center;
+    }
+    .nav-item:last-child{
+        margin-right: 40px;
+    }
+    .card{
+        margin-bottom: 80px;
+    }
+    .wlc-left {
+        width: 100%;
+        height: auto;
+        float: none;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .wlc-left img{
+        
+        padding-bottom: 40px;
+    }
+    .wlc-right {
+        float: none;
+        width: 100%;
+        background: #002262;
+        
+    }
+    .wlc-right .text {
+        margin:0;
+        padding: 0;
+      }
+    .card-full{
+        padding-bottom: 0;
+    }
+    .heart .heart-top img {
+        bottom: 0;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .heart-bottom{
+        padding-top: 0;
+    }
+    .text .pra{
+        padding-bottom: 40px;
+        font-size: 12px;
+    }
+    .depertments{
+        flex-direction: column;
+    }
+    .depertments{
+        flex-direction: column;
+    }
+    .dep-a::before {
+        top: -30%;
+        left: -16px;
+        width: 0;
+        height: 461px;
+    }
+    .dep-b::before {
+        top: 707%;
+        left: auto;
+        width: 140px;
+        height: 1px;
+        right: -85px;
+    }
+    .dep-b::after{
+        content: "";
+        position: absolute;
+        top: -115%;
+        left: -15px;
+        width: 4%;
+        height: 7px;
+        border-bottom: 2px solid #002262;
+        background: transparent;
+    }
+    .dep-c::before {
+        top: 50%;
+        left: -5px;
+        width: 18px;
+        height: 1px;
+    }
+    .dep-a::after {
+        content: "";
+        position: absolute;
+        top: 204%;
+        left: -16px;
+        width: 107%;
+        height: 7px;
+        border-bottom: 2px solid #002262;
+        background: transparent;
+    }
+    .dep-d::before {
+        top: 40px;
+        left: -15px;
+        width: 19px;
+        height: 0;
+    }
+    .sales-dep-main .sub-depertments.sd1 {
+        position: absolute;
+        left: auto;
+        right: 100px;
+        top: 380px;
+    }
+    .dep-b>ul::before {
+        left: auto;
+        top: -127%;
+        right: -117px;
+        width: 2px;
+        height: 545px;
+    }
+    .dep-b>ul::after {
+        top: 25%;
+        left: auto;
+        width: 141px;
+        height: 1px;;
+        right: -186px;
+    }
+    .chart-area{
+        min-height: 230vh;
+    }
+    .depertments::before {
+        top: 1px;
+        left: 130px;
+        width: 240px;
+        height: 1px;
+    }
+    .contact .container .col-md-3 {
+        text-align: center;
+    }
+    .service .container p {
+        padding-bottom: 60px;
+    }
+    .ceo{
+        width: 100%;
+    }
+}
